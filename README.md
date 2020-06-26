@@ -12,9 +12,10 @@ There are two different web methods: `/notfoundexception` and `/responsestatusex
 
 ```
 .
-|-- LICENSE.md                                           - license
-|-- README.md                                            - this file
-|-- img                                                  - some images to make whole README beautiful
+|-- LICENSE.md                                           - License
+|-- README.md                                            - This file
+|-- img                                                  - Some images to make whole README
+|   |                                                      beautiful
 |   |-- notfoundexception.png
 |   `-- responsestatusexception.png
 |-- mvnw                                                 - mvn wrapper
@@ -25,19 +26,23 @@ There are two different web methods: `/notfoundexception` and `/responsestatusex
         |-- java
         |   `-- mypackage
         |       `-- exceptiondemo
-        |           |-- ErrorDTO.java                    - custom DTO object used for passing error
-        |           |                                      I am using it to pass status code, and message
+        |           |-- ErrorDTO.java                    - Custom DTO object used for 
+        |           |                                      passing error. I am using it to 
+        |           |                                      pass status code, and message
         |           |
         |           |-- ExceptionDemoApplication.java    - Main application
         |           |
-        |           |-- ExceptionsController.java        - Controller that throws exceptions as respone
+        |           |-- ExceptionsController.java        - Controller that throws exceptions 
+        |           |                                      as respone
         |           |
         |           |-- GlobalExceptionHandler.java      - Global handler of exceptions
         |           |
-        |           `-- NotFoundException.java           - Custom implementation of Not Found error
+        |           `-- NotFoundException.java           - Custom implementation of Not Found 
+        |                                                  error
         `-- resources
-            `-- application.properties                   - Properties - I am setting here configuration
-                                                           for ResponseStatusException
+            `-- application.properties                   - Properties - I am setting here 
+                                                           configuration for 
+                                                           ResponseStatusException
 ```
 
 # Running the code
